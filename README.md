@@ -6,8 +6,8 @@ USB dongle for authentication using Circuitpython
 
 # Requirements
 
-[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico)
-[Pico OLED 1.3 display module](https://www.waveshare.com/wiki/Pico-OLED-1.3)
+- [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico)
+- [Pico OLED 1.3 display module](https://www.waveshare.com/wiki/Pico-OLED-1.3)
 
 # Getting Started
 
@@ -15,11 +15,11 @@ USB dongle for authentication using Circuitpython
 
 Also install:
 
-[Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID)
-[Adafruit_CircuitPython_DisplayIO_SH1107](https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_SH1107)
-[Adafruit_CircuitPython_ImageLoad](https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad)
-[Adafruit_CircuitPython_Bitmap_Font](https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font)
-[Adafruit_CircuitPython_Display_Text](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text)
+- [Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID)
+- [Adafruit_CircuitPython_DisplayIO_SH1107](https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_SH1107)
+- [Adafruit_CircuitPython_ImageLoad](https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad)
+- [Adafruit_CircuitPython_Bitmap_Font](https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font)
+- [Adafruit_CircuitPython_Display_Text](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text)
 
 Optional:
 
