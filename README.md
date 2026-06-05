@@ -13,6 +13,18 @@ USB dongle for authentication using CircuitPython
 
 [Download](https://circuitpython.org/downloads) and [install](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython) CircuitPython on the board
 
+Clone this repository
+```
+git clone https://github.com/antruc/picopass.git
+cd picopass
+```
+Copy all files to your board
+
+Change the variables inside lib/picopass.py:
+```
+password = "password"
+pin = "pin"
+```
 Also install:
 
 - [Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID)
@@ -21,15 +33,7 @@ Also install:
 - [Adafruit_CircuitPython_Bitmap_Font](https://github.com/adafruit/Adafruit_CircuitPython_Bitmap_Font)
 - [Adafruit_CircuitPython_Display_Text](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text)
 
-Optional:
-
-Install [Circuitpython_Keyboard_Layouts](https://github.com/Neradoc/Circuitpython_Keyboard_Layouts) for international keyboards
-
-Change the variables inside picopass.py:
-```
-password = "password"
-pin = "pin"
-```
+Optional: Install [Circuitpython_Keyboard_Layouts](https://github.com/Neradoc/Circuitpython_Keyboard_Layouts) for international keyboards
 
 You can also use [mpy-cross](https://learn.adafruit.com/welcome-to-circuitpython/frequently-asked-questions#how-can-i-create-my-own-mpy-files-3020687-11) to turn picopass.py into a .mpy file
 
